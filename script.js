@@ -7,9 +7,9 @@ const audioList = [
   ];
   
   const randomIndex = Math.floor(Math.random() * audioList.length);
-  const ThanhDieu_Audio = audioList[randomIndex];
-  const audio = new Audio(ThanhDieu_Audio);
+  const Nezuko_Audio = audioList[randomIndex];
+  const audio = new Audio(Nezuko_Audio);
   
-  function ThanhDieuMusic() {audio.play();}
+  function Music() {audio.play();}
   console.log();
-  ThanhDieuMusic();
+  Music();
